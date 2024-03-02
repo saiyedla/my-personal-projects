@@ -13,8 +13,8 @@ def calculate_compound_interest(initial_amount, annual_interest_rate, term_years
     
     interest_earned = total_amount - initial_amount - (contribution_amount * total_periods)
     
-    print("\nTotal amount after compound interest:", round(total_amount, 2))
-    print("\nInterest earned:", round(interest_earned, 2))
+    print("\nTotal amount after compound interest :", round(total_amount, 2))
+    print("\nInterest earned :", round(interest_earned, 2))
     
 initial_amount = float(input("Enter initial amount: "))
 annual_interest_rate = float(input("Enter annual interest rate (%): "))
