@@ -28,5 +28,5 @@ else:
     contribution_amount = 0
     contribution_frequency = 'yearly'
 
-# Calculate compound interest and directly print the output
+#  Calculate compound interest and directly print the output
 calculate_compound_interest(initial_amount, annual_interest_rate, term_years, contribution_amount, contribution_frequency)
