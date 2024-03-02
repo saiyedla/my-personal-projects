@@ -19,6 +19,6 @@ def send_whatsapp_message(to_number, message):
     except Exception as e:
         print(f"Error: {str(e)}")
 
-recipient_number = ''
+recipient_number = ' '
 message_to_send = 'Hello'
 send_whatsapp_message(recipient_number, message_to_send)
