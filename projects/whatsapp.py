@@ -1,8 +1,8 @@
 from twilio.rest import Client
 
 # Twilio credentials
-account_sid = 'AC0880156fb19602ea1cb359d41b1b5ab6'
-auth_token = 'f2d80993aeb7f60eb1250c30f414b589'
+account_sid = ''
+auth_token = ''
 
 # Initialize Twilio client
 client = Client(account_sid, auth_token)
@@ -15,10 +15,10 @@ def send_whatsapp_message(to_number, message):
             body=message,
             to=f'whatsapp:{to_number}'      
         )
-        print(f"Message sent successfully. SID: {message.sid}")
+        print(f"Message sent  successfully. SID: {message.sid}")
     except Exception as e:
         print(f"Error: {str(e)}")
 
-recipient_number = '+16137164686'
+recipient_number = ' '
 message_to_send = 'Hello'
-send_whatsapp_message(+16137164686, message_to_send)
+send_whatsapp_message(recipient_number, message_to_send)
