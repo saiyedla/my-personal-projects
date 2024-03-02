@@ -15,7 +15,7 @@ def send_whatsapp_message(to_number, message):
             body=message,
             to=f'whatsapp:{to_number}'      
         )
-        print(f"Message sent successfully. SID: {message.sid}")
+        print(f"Message sent  successfully. SID: {message.sid}")
     except Exception as e:
         print(f"Error: {str(e)}")
 
